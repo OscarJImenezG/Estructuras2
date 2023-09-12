@@ -165,10 +165,7 @@ public class MatrizDispersaPanel extends JPanel {
             int fila = dato[1];
             int valor = dato[2];
             textArea.append("Fila: " + fila + ", Columna: " + columna + ", Valor: " + valor + "\n");
-        }
-        JLabel nuevo = new JLabel();
-        nuevo.setText(Arrays.toString(dato));
-        textArea.add(nuevo);    
+        } 
 
         JScrollPane scrollPane = new JScrollPane(textArea);
         mp.add(scrollPane, BorderLayout.CENTER);
